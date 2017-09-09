@@ -5,6 +5,10 @@ module.exports = {
       "commonjs": true,
       "es6": true
   },
+  "globals": {
+    "describe": false,
+    "it": false
+  },
   "extends": "eslint:recommended",
   "parserOptions": {
       "sourceType": "module"
